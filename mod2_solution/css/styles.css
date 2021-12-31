@@ -37,6 +37,8 @@ p {
   text-align: center;
   padding: 5px;
   border: 2px solid black;
+  border-top: none;
+  border-right: none;
   width: 150px;
   position: relative;
   left: calc(100% - 150px);
