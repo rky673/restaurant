@@ -4,14 +4,20 @@ body {
 }
 
 #header-nav {
-  background-color: #d3d3d3;
+  background-color: #ffa600;
   border: none;
   border-radius: 0;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  padding: 20px 30px;
+  height: auto;
 }
 
 .navbar-brand h1 {
   font-family: 'Source Sans 3', sans-serif;
-  color: #000;
+  color: #077;
   font-size: 1.5em;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -19,6 +25,45 @@ body {
   margin-bottom: 0;
   line-height: .75;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
   text-decoration: none;
+}
+
+#collapsable-nav {
+  background-color: #ffa600;
+}
+
+#nav-list>li>a {
+  text-align: center;
+  font-weight: 550;
+  color: #b22222;
+}
+
+#nav-list>li>a:hover {
+  background-color: #dedede;
+}
+
+#nav-list>.active>a {
+  background-color: #eee;
+}
+
+.text-center>h1 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px;
+  margin: 20px 0 40px 0;
+}
+
+#main-content {
+  background-color: #dedede;
+  height: 1500px;
+  margin-top: 30px;
+  width: 98%;
+}
+
+#main-content h1 {
+  font-size: 1.7em;
+  margin: 15px 0;
 }
